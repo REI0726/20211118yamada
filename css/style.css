@@ -259,7 +259,7 @@ img {
   position: absolute;
   top: 50%;
   left: 15px;
-  background: url(../img/inspiration.svg) no-repeat;
+  background: url(../img/mail.svg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
@@ -269,9 +269,51 @@ img {
   content: "";
   position: absolute;
   right: 15px;
-  background: url(../img/download__icon.svg) no-repeat;
+  background: url(../img/download_icon.svg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
   transform: rotate(-90deg);
+}
+
+.practice {
+  max-width: 1000px;
+  width: 100%;
+  margin: 30px 10px auto;
+}
+.parent {
+  color: rgb(3, 3, 102);
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.child-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+p {
+  margin-left: 20px;
+}
+.item {
+  position: relative;
+}
+
+.item-img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  transform: translate(0, 70px);
+}
+.item-text {
+  font-size: 50px;
+  position: absolute;
+  top: 45%;
+  left: -10px;
+}
+.item-box {
+  background: rgb(3, 3, 102);
+  width: 75%;
+  height: 140px;
+  clear: both;
 }
