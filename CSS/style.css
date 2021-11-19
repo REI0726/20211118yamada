@@ -14,9 +14,12 @@
   display: flex;
   justify-content: flex-end;
 }
-p {
+a {
+  color: rgb(3, 3, 102);
+  text-decoration: none;
   margin-left: 20px;
 }
+
 .item {
   position: relative;
 }
